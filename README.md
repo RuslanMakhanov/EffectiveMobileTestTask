@@ -26,6 +26,7 @@ venv\Scripts\activate
 ## Для пользователей macOS и Linux
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ## Примеры использования
 Выберите действие: 1
