@@ -191,7 +191,7 @@ def search_transactions(file_path):
         search_value = input("Для поиска по дате используйте формат yyyy-mm-dd)\n")
     else:
         # Ввод значения для поиска
-        search_value = input("Введите значение для поиска: \n (Для поиска по дате используйте формат yyyy-mm-dd)\n")
+        search_value = input("Введите значение для поиска: \n ")
 
     # Поиск и вывод результатов
     found_transactions = [transaction for transaction in transactions if transaction[field].lower().startswith(search_value.lower())]

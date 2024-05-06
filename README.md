@@ -26,8 +26,10 @@ venv\Scripts\activate
 ## Для пользователей macOS и Linux
 python3 -m venv venv
 source venv/bin/activate
-```
 
+## Запуск Приложения 
+python main.py
+```
 ## Примеры использования
 Выберите действие: 1
 Введите 'Д' для дохода или 'Р' для расхода: Д
