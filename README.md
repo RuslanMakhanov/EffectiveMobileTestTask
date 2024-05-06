@@ -27,7 +27,8 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-## Запуск Приложения 
+## Запуск Приложения
+cd src
 python main.py
 ```
 ## Примеры использования
